@@ -1,6 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import { Button, ScrollView, StyleSheet, Text, TextInput, View, SafeAreaView } from 'react-native';
-import {firestore, collection, addDoc,serverTimestamp, MESSAGES} from '/firebase/Config';
+import {firestore, collection, addDoc,serverTimestamp, MESSAGES} from './Firebase/Config';
 import { useEffect, useState } from 'react';
 import { querySnapshot, onSnapshot, query, orderBy } from 'firebase/firestore';
 import Constants from 'expo-constants';
